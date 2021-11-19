@@ -1,2 +1,2 @@
 https://github.com/eightcard/pikatore
-このレポジトリの100本ノックやってみた
+このレポジトリの100本ノックやってみる
