@@ -6,7 +6,7 @@
 <head>
     <!--文字コードの宣言-->
     <meta charset="utf-8">
-    <title>タイトル</title>
+    <title>{{title}}</title>
     <meta name="description" content="検索結果で表示されるところ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.png">
@@ -15,9 +15,8 @@
 </head>
 
 <body>
-
-    本文書くところ
-
+    {% block content %}
+    {% endblock %}
 </body>
 
 </html>
