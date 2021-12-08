@@ -1,0 +1,11 @@
+# postgresの使い方
+- サーバー起動: pg_ctl start
+- サーバー停止: pg_ctl stop
+- ユーザー作成: createuser -P [username]
+- DB作成: createdb [dbname] -O [username]
+- DBにアクセス: psql -U [username] [dbname]
+- テーブル作成: create table article([name] [type], [name] [type]);
+- db内容の閲覧: \d
+- テーブルの閲覧: \d [tablename]
+- データの追加: INSERT INTO [tablename] values([value], [value]);
+- テーブルのデータを表示: select * from [tablename];
