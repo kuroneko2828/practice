@@ -11,7 +11,7 @@ def show():
     cur.execute('SELECT * FROM article;')
     results = cur.fetchall()
 
-    print(results)
+    print(type(results[0]))
 
     cur.close()
     return
@@ -28,7 +28,7 @@ def write():
 
 def main():
     
-    write()
+    #write()
     show()
     
     conn.commit()

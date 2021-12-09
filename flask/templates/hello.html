@@ -2,4 +2,9 @@
 {% block content %}
 <h3>こんにちは。</h3>
 こんにちは。{{name}}さん。
+<ul>
+{% for article in articles %}
+    <li>{{article[1]}} : {{article[2]}}</li>
+{% endfor %}
+</ul>
 {% endblock %}
